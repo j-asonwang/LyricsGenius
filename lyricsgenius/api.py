@@ -106,6 +106,12 @@ class API(object):
         endpoint = "annotations/{id}".format(id=id_)
         return self._make_request(endpoint)
 
+    def get_referents(self, song_id):
+        """Search documents hosted on Genius."""
+        endpoint = "referents/"
+        params = {'song_id': song_id}
+        return self._make_request(endpoint, params_=params)
+
 
 class Genius(API):
     """User-level interface with the Genius.com API."""
