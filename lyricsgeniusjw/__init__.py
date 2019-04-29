@@ -9,7 +9,7 @@ from lyricsgenius.api import Genius
 """A library that provides a Python interface to the Genius API"""
 
 __author__ = 'John W. Miller'
-__url__ = 'https://github.com/johnwmillr/LyricsGenius'
+__url__ = 'https://github.com/j-asonwang/LyricsGenius'
 __description__ = 'A Python wrapper around the Genius API'
 __license__ = 'MIT'
 __version__ = '1.5.1'
